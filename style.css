@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+section {
+}
+
+.jumbotron {
+    width: 100%;
+    padding-top: 20px;
+    background-color: #a1c7ff60;
+}
+
+@media screen and (max-width: 478px) {  
+    .container {
+        padding: 0 30px;
+    }
+    p {
+        font-size: 13.5px;
+    }
+}
